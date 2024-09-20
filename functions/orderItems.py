@@ -1,10 +1,10 @@
 import pymysql
 
 # Database connection parameters
-host = "fds-db.cleo42wwet5x.us-east-1.rds.amazonaws.com"
-username = "fdsadmin123"
-password = "cddd0004"
-database_name = "fds"
+host = <host>
+username = <username>
+password = <password>
+database_name = <database_name>
 
 def lambda_handler(event, context):
     connection = None
